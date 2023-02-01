@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9829552d-3561-4922-a629-1d1ae16d45a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-test/item-api.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-test/order-api.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-test/partner-api.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/OrderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/application/item/ItemFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/application/order/OrderFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/application/partner/PartnerFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/common/exception/BaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/common/exception/EntityNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/common/exception/IllegalStatusException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/common/exception/InvalidParamException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/common/interceptor/CommonHttpRequestInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/common/response/CommonControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/common/response/CommonResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/common/response/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/common/util/TokenGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/config/JpaAuditingConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/AbstractEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/ItemCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/ItemInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/ItemOptionSeriesFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/ItemReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/ItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/ItemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/ItemStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/option/ItemOption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/option/ItemOptionStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/optiongroup/ItemOptionGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/item/optiongroup/ItemOptionGroupStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/notification/NotificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/OrderCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/OrderInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/OrderInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/OrderItemSeriesFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/OrderReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/OrderStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/fragment/DeliveryFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/item/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/item/OrderItemOption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/item/OrderItemOptionGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/payment/PayMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/payment/PaymentProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/payment/validator/PayAmountValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/payment/validator/PayMethodValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/payment/validator/PayStatusValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/order/payment/validator/PaymentValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/partner/Partner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/partner/PartnerCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/partner/PartnerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/partner/PartnerReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/partner/PartnerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/partner/PartnerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/domain/partner/PartnerStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/NotificationExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/item/ItemOptionSeriesFactoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/item/ItemReaderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/item/ItemStoreImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/item/option/ItemOptionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/item/option/ItemOptionStoreImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/item/optiongroup/ItemOptionGroupRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/item/optiongroup/ItemOptionGroupStoreImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/OrderItemOptionGroupRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/OrderItemOptionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/OrderItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/OrderItemSeriesFactoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/OrderReaderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/OrderStoreImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/payment/KakaoPayApiCaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/payment/NaverPayApiCaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/payment/PaymentApiCaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/payment/PaymentProcessorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/payment/PgCardApiCaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/order/payment/TossPayApiCaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/partner/PartnerReadImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/partner/PartnerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/infrastructure/partner/PartnerStoreImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/interfaces/item/ItemApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/interfaces/item/ItemDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/interfaces/item/ItemDtoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/interfaces/order/OrderApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/interfaces/order/OrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/interfaces/order/OrderDtoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/interfaces/partner/PartnerApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/practice/order/interfaces/partner/PartnerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__init_ddl.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dev/practice/order/OrderApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2L9Oc8REFY7MWObUU0AdAjnIGpK" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/wook/Study/present/build.gradle",
+    "settings.editor.selected.configurable": "MTConfigurable",
+    "spring.configuration.checksum": "eef9db00dbf01f84a092ae66ef5a0a3c"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="present" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="present" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.practice.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9829552d-3561-4922-a629-1d1ae16d45a7" name="Changes" comment="" />
+      <created>1675279908921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675279908921</updated>
+      <workItem from="1675279910134" duration="850000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
